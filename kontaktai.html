@@ -17,7 +17,34 @@
         <header>
             <h1>Kontaktai</h1>
         </header>
-        Kontaktai
+
+
+        <form action="saugoti.php" method="post" target="_blank">
+            <label for="vardas">Tavo vardas</label>
+            <input type="text" name="firstName" id="vardas" />
+            <hr>
+            <select name="car" id="auto">
+                <option>Pasirinkite Autoriteta</option>
+                <option value="tesla">Tresla</option>
+                <option value="leaf">NISSAN LEAF</option>
+            </select>
+            <hr>
+            <label for="ar">Ar kazkas?</label>
+            <input type="checkbox" value="taip" id="ar"/>
+            <hr>
+            <label for="pa">Pasirinkimas A</label>
+            <input type="radio" name="pasirinkimas" value="pasirinkimas A" id="pa">
+            <hr>
+            <label for="pb">Pasirinkimas B</label>
+            <input type="radio" name="pasirinkimas" value="pasirinkimas B" id="pb">
+            <hr>
+            <textarea name="klausimas" placeholder="tavo tekstas">Labas pasauli?</textarea>
+            <hr>
+            <button type="submit">Klausti</button>
+        </form>
+
+
+
     </div>
 </main>
 <footer>
