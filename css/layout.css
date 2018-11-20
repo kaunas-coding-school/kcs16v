@@ -1,0 +1,21 @@
+html{
+    height: 10%;
+}
+main {
+     width: 960px;
+     margin: 0 auto;
+    flex-grow: 1;
+}
+
+main .content {
+    display: grid;
+    grid-template-rows: 50px 40px auto 30px;
+}
+
+body{
+    display: flex;
+    height: 100%;
+}
+body>header, body>footer {
+    height: 150px;
+}

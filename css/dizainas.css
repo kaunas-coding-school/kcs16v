@@ -1,0 +1,21 @@
+body {
+    color: black;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 20px;
+}
+
+main {
+    border: 1px solid darkgray;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.pagination, .filter {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+/* Animacijos kodas */
+@keyframes example {
+    0% {background-color: red;}
+    30% {background-color: green;}
+    67% {background-color: blue;}
+    77% {background-color: blueviolet;}
+    100% {background-color: red;}
+}
+
+/* Elementas kuriam taikysime animacija */
+.testAnimation {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
