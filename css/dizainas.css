@@ -19,3 +19,6 @@ main {
 a {
     text-decoration: none;
 }
+.testas, .testas2 {
+    border: 1px solid black;
+}
