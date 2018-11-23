@@ -1,0 +1,15 @@
+.active {
+    color: red;
+}
+.tab {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sheets .sheet {
+    font-size: 44px;
+    display: none;
+    padding: 20px;
+    border: 1px solid black;
+}
